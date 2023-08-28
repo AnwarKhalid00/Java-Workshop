@@ -1,6 +1,8 @@
 
+
+
 import java.util.Scanner;
-public class operators 
+public class Operators 
 {
     public static void main(String[] args)
     {
@@ -16,11 +18,11 @@ public class operators
         System.out.println(a-b);
         System.out.println("Performing MULTIPLICATION");
         System.out.println(a*b);
-        System.out.println("Performing QUOTIENT");
+        System.out.println("Performing Division");
         System.out.println(a/b);
-        System.out.println("Performing REMAINDER");
+        System.out.println("Performing Remainder");
         System.out.println(a%b);
-    
+                
     }
     
 }

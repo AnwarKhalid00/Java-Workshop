@@ -1,11 +1,20 @@
-public class shiftoperator
-{
-    public static void main(String[] args) {
-        int a = 5;
-        int b = 1;
-        System.out.println("Performing left shift");
+
+
+
+public class Shiftoperator {
+    public static void main(String[] args)
+    {
+        int a=8;
+        int b=1;
+        int c=2;
         System.out.println(a<<b);
-        System.out.println("Performing left shift");
         System.out.println(a>>b);
+        System.out.println(a<<c);
+        System.out.println(c>>a);
+                
+                
+        
+        
+                
     }
 }

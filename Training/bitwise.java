@@ -1,4 +1,7 @@
-public class bitwise{
+
+
+
+public class bitwise {
     public static void main(String[] args) {
         int a = 6;
         int b = 1;
@@ -12,4 +15,5 @@ public class bitwise{
         System.out.println(~a);
         System.out.println(~b);
     }
+    
 }
