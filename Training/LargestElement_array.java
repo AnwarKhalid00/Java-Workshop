@@ -1,4 +1,4 @@
-package com.mycompany.java_workshop;
+
 
 public class LargestElement_array {  
     public static void main(String[] args) {  
