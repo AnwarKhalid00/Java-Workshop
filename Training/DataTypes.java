@@ -1,4 +1,4 @@
-
+package com.mycompany.java_workshop;
 
 
 import java.util.Scanner;
@@ -11,7 +11,9 @@ public class DataTypes
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the input");
         String a=sc.nextLine();
-         System.out.println(a);
+        System.out.println("enter the input");
+        int b = sc.nextInt();
+        System.out.println(b);
+        System.out.println(a);
     }
-}
-
+}    

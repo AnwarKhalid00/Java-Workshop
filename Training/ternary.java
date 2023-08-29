@@ -1,4 +1,4 @@
-
+package com.mycompany.java_workshop;
 
 import java.util.Scanner;
 
