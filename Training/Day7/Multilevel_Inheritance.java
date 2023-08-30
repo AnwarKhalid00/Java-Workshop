@@ -1,7 +1,7 @@
 package Day7;
 
 import java.util.*;
-class A{
+class A1{
     int a,b;
     void input()
     {
@@ -16,7 +16,7 @@ class A{
         return(a+b);
     }
 }
-class B extends A{
+class B1 extends A1{
     int c;
     void getdata(){
         Scanner sc = new Scanner(System.in);
@@ -28,7 +28,7 @@ class B extends A{
         return(a+b+c);
     }
 }
-class C extends B{
+class C1 extends B1{
     int d;
     void getinfo(){
         Scanner sc = new Scanner(System.in);
@@ -41,7 +41,7 @@ class C extends B{
 }
 public class Multilevel_Inheritance{
     public static void main(String[] args) {
-        C cc = new C();
+        C1 cc = new C1();
         cc.input();
         System.out.println("Sum of two numbers are:"+(cc.add()));
         cc.getdata();
