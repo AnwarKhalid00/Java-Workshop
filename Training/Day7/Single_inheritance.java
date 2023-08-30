@@ -1,6 +1,6 @@
 package Day7;
 import java.util.*;
-class A{
+class AA{
     int a,b;
     void input()
     {
@@ -15,7 +15,7 @@ class A{
         return(a+b);
     }
 }
-class B extends A{
+class BB extends AA{
     int c;
     void getdata(){
         Scanner sc = new Scanner(System.in);
@@ -29,7 +29,7 @@ class B extends A{
 }
 public class Single_inheritance {
     public static void main(String[] args) {
-        B bb = new B();
+        BB bb = new BB();
         bb.input();
         System.out.println("Sum of two numbers are:"+(bb.add()));
         bb.getdata();

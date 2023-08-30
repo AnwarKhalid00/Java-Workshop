@@ -1,10 +1,10 @@
 package Day8;
-class Parent{
+class Parent_{
     void eat(){
         System.out.println("Team pay attention!!!");
     }
 }
-class Child extends Parent{
+class Child_ extends Parent_{
 
     void eat(){
         
@@ -15,7 +15,7 @@ class Child extends Parent{
 }
 public class Super {
     public static void main(String[] args) {
-        Child cc = new Child();
+        Child_ cc = new Child_();
         cc.eat();
     }
     
