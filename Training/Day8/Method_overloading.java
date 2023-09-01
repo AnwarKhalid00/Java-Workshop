@@ -1,4 +1,4 @@
-package Day8;
+
 import java.util.*;
 
 class A{
