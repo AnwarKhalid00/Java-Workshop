@@ -3,20 +3,18 @@ import java.util.*;
 
 class Fact{
     int num;
-    int input(){
+    void input(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
-        int num = sc.nextInt();
-        return num;
+        num = sc.nextInt();
+        
 
     }
     int fact;
     int fac(){
         fact = 1;
-        int i = 1;
-        while(i<=num){
+        for(int i = num ; i >= 1;i--){
             fact = fact*i;
-            i = i+1;
         }
         return fact;
     }   
