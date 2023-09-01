@@ -1,5 +1,5 @@
 package Day5;
-s
+
 import java.lang.String;
 public class String_ 
 {
