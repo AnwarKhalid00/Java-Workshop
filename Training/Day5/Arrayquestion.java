@@ -22,7 +22,7 @@ public class Arrayquestion
                 max = arr[i];
             }
         }
-        System.out.println("Greatest value ius :"+max);
+        System.out.println("Greatest value is :"+max);
         
     }
     

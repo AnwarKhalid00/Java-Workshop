@@ -4,7 +4,7 @@ class Cricketer{
         System.out.println("Object is created!!!!");
     }
     protected void finalize(){
-        System.out.println("Object is destroyed!!!");
+        System.out.println("Object is destroyed!!!"); 
     }
 }
 public class Gar_bage_collector {
