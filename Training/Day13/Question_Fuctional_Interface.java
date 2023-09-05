@@ -7,7 +7,8 @@ interface Even
 }
 class Answer implements Even
 {
-        public void show_even(){
+        public void show_even()
+        {
             Scanner sc = new Scanner(System.in);
             System.out.print("Enter  the number:");
             int a = sc.nextInt();
