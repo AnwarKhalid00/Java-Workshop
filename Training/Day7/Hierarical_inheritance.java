@@ -2,7 +2,7 @@ package Day7;
 
 import java.util.*;
 
-import Day4.Square;
+
 class Father
 {
     int l,b,s;
