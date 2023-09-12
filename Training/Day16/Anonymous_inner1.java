@@ -1,4 +1,5 @@
 package Day16;
+//Anonymous  inner class using abstract class!!
 abstract class See{
     abstract void display();
 }
