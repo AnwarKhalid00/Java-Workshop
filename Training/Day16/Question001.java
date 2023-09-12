@@ -22,7 +22,7 @@ public class Question001 {
         int a = sc.nextInt();
         System.out.print("Enter the second number:");
         int b = sc.nextInt();
-        System.out.println(mm.show_max(a, b));
+        System.out.println("Greatest number between "+a+" & "+b+" is: "+mm.show_max(a, b));
         sc.close();
     }
 }
