@@ -19,9 +19,9 @@ public class Inner_Classes {
         Outer o = new Outer();
         System.out.println(o.data);
         o.show();
-        Outer.Inner i = o.new Inner();
+        Outer.Inner i = o.new Inner();//By creating object for outer class
         i.show();
-        Outer.Inner in = new Outer().new Inner();
+        Outer.Inner in = new Outer().new Inner();//Without creating object for outer class                                                      
         in.show1();
 
     }
