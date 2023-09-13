@@ -1,8 +1,8 @@
 package Day17;
-
+//For file output stream??
 import java.io.*;
 
-public class File_handling {
+public class File_handling_output {
     public static void main(String[] args) {
         try {
             FileOutputStream fout = new FileOutputStream("Batch2Fileout.txt", false);
