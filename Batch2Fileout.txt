@@ -1,2 +1,1 @@
-E
-Welcome to Java File Handling!!
+Welcome to buffer file concepts
