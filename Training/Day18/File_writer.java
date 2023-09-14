@@ -11,9 +11,8 @@ public class File_writer {
             fw.write(str.charAt(i));
         }
         fw.write("\nKHALID\n");
-        fw.write("\nWE ALL ARE LEARNING JAVA!!");
-        
-
+        fw.write("\nWE ALL ARE LEARNING JAVA!!\n");
+        fw.write(str.charAt(4));
         System.out.println("SUCCESSFUL!!");
         fw.close();
     }
