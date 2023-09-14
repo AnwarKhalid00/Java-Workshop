@@ -12,7 +12,6 @@ public class File_reader {
             System.out.print((char)data+" ");
             data = rd.read();
             //rd.skip(4);
-
         } 
         rd.close();
     }
