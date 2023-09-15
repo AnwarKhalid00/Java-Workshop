@@ -5,5 +5,4 @@ public class String_Tokenizer_3 {
         StringTokenizer st = new StringTokenizer("Hello Friends Hi !!");
         System.out.println(st.countTokens());
     }
-    
 }
