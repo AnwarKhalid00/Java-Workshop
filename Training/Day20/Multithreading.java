@@ -18,7 +18,7 @@ class Hello extends Thread{
             try {
                 Thread.sleep(500);
             } catch (Exception e) {
-                // TODO: handle exception
+                
             }
         }
     }
@@ -31,7 +31,7 @@ public class Multithreading {
         try {
             Thread.sleep(10);
         } catch (Exception e) {
-            // TODO: handle exception
+            
         }
         obj2.start();
     }

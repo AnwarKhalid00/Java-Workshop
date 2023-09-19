@@ -7,7 +7,7 @@ class Hi_1 implements Runnable{
             try {
                 Thread.sleep(500);
             } catch (Exception e) {
-                // TODO: handle exception
+                
             }
         }
     }
@@ -19,7 +19,7 @@ class Hello_1 implements Runnable{
             try {
                 Thread.sleep(500);
             } catch (Exception e) {
-                // TODO: handle exception
+                
             }
         }
     }
