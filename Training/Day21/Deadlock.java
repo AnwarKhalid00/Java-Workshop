@@ -24,12 +24,7 @@ public class Deadlock {
         public void run(){
             while(true){
                 synchronized(s2){
-                    try {
-                        System.out.println(Thread.currentThread().getName()+" locked!!"+s2);
-                        Thread.sleep(100);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+                    System.out.println(Thread.currentThread().getName()+" locked!!"+s2);
                     synchronized(s1){
                         System.out.println(Thread.currentThread().getName()+" locked!!"+s1);
                     }
