@@ -20,7 +20,7 @@ public class Multithreading_lambda {
             for(int i = 0;i<5;i++){
                     System.out.println("Hello");
                     try {
-                        Thread.sleep(500);
+                        Thread.sleep(1000);
                     } catch (Exception e) {
                         
                     }
