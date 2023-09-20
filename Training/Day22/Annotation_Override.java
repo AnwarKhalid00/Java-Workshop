@@ -15,5 +15,6 @@ public class Annotation_Override {
     public static void main(String[] args) {
         B_ obj = new B_();
         obj.msg();
+        
     }
 }
