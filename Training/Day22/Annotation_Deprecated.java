@@ -3,7 +3,7 @@ class A_A{
     void msg(){
         System.out.println("HELLO TEAM!!");
     }
-    @Deprecated
+    @Deprecated //it discourages the use of following method it gives the warning when we are printing the method!!! 
     void print(){
         System.out.println("ITS WORKING!!");
     }
