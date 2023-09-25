@@ -1,4 +1,4 @@
-package Day23;
+package Day23; 
 import java.util.*;
 public class Basic_collection_4 {
     public static void main(String[] args) {
