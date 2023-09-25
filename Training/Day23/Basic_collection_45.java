@@ -10,5 +10,6 @@ public class Basic_collection_45 {
         System.out.println("Elements: "+as);
         Collections.addAll(as,"HTML","CSS","JavaScript","DSA","DBMS","DS");
         System.out.println("Elements after addition using collection: "+as);
+        System.out.println("Index value: "+as.get(7));
     }
 }
