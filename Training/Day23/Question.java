@@ -13,5 +13,6 @@ public class Question {
         for(Float s:al){
             System.out.println(s+" ");
         }
+        
     }
 }
