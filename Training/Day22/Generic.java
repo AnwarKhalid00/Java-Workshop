@@ -1,4 +1,4 @@
-package Day22;
+package Day22;                 
 import java.util.*;
 public class Generic {
     public static void main(String[] args) {
