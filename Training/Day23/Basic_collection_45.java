@@ -11,5 +11,7 @@ public class Basic_collection_45 {
         Collections.addAll(as,"HTML","CSS","JavaScript","DSA","DBMS","DS");
         System.out.println("Elements after addition using collection: "+as);
         System.out.println("Index value: "+as.get(7));
+        as.set(4,"Algo");
+        System.out.println("Updated Elements: "+as);
     }
 }
