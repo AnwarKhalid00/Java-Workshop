@@ -10,8 +10,15 @@ public class Linked_Hash_set {
         al.add(10);
         al.add(27);
         System.out.println("Elements in array list: "+al);
-        Set<Integer> lhs = new LinkedHashSet<Integer>(al);//LinkedHashSet maintains the order of the elements.
-        System.out.println("Elements in LinkedHashSet: "+lhs);
+        Set<Integer> lhs = new LinkedHashSet<Integer>();//LinkedHashSet maintains the order of the elements.
+        lhs.addAll(al);
+        lhs.add(35);
+        lhs.add(65);
+        System.out.println("Elements in LinkedHashSet after adding elements: "+lhs);
+        boolean b = lhs.remove(59);
+        System.out.println("LinkedHashSet after removing element : "+lhs);
+        lhs.removeAll(lhs);
+        System.out.println("LinkedHashSet after removing all elements: "+lhs);
 
     }
 }
