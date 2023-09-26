@@ -3,7 +3,7 @@ import java.util.*;
 public class Basic_Collection_with_integer {
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList<Integer>();
-        al.add(56);//add method is used to add elements in the end of the list.
+        al.add(56);
         al.add(89);
         al.add(12);
         al.add(34);

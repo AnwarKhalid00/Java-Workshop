@@ -3,7 +3,7 @@ import java.util.*;
 public class Basic_collection_4 {
     public static void main(String[] args) {
         ArrayList li = new ArrayList();
-        li.add(10);//add method is used to add elements in the end of the list.
+        li.add(10);
         li.add("Niet");
         li.add("Pyramid");
         li.add(275);
@@ -13,7 +13,7 @@ public class Basic_collection_4 {
             System.out.println(s+" ");
         }
         ArrayList<Integer> al = new ArrayList<Integer>();
-        al.add(10);//add method is used to add elements in the end of the list.
+        al.add(10);
         al.add(227);
         al.add(38);
         al.add(409);

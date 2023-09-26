@@ -3,7 +3,7 @@ import java.util.*;
 public class Basic_Collection_removing_elements {
     public static void main(String[] args) {
         ArrayList<String> al = new ArrayList<String>();
-        al.add("Batch 2");//add method is used to add elements in the end of the list.
+        al.add("Batch 2");
         al.add("Khalid");
         al.add("Mayank");
         al.add("Rajeev");

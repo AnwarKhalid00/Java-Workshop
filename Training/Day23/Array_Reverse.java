@@ -3,7 +3,7 @@ import java.util.*;
 public class Array_Reverse {
     public static void main(String[] args) {
         List<Integer> al = new ArrayList<Integer>();
-        al.add(16);//add method is used to add elements in the end of the list.
+        al.add(16);
         al.add(22);
         al.add(38); 
         al.add(40);
