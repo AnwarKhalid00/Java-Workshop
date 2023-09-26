@@ -9,7 +9,7 @@ public class Hash_set {
         hs.add(59);
         hs.add(10);
         hs.add(27);
-        System.out.println("Elements in set 1: "+hs);
+        System.out.println("Elements in set 1: "+hs);//HashSet does not maintain the order of the elements.
         Set<Integer> hs1 = new HashSet<Integer>();
         hs1.add(35);
         hs1.add(65);
