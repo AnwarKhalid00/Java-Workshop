@@ -4,8 +4,7 @@ import java.util.*;
 public class Task {
     public static void main(String[] args) {
         ArrayList<Integer> ai = new ArrayList<Integer>();
-        ai.add(16);//add method is used to add elements in the end of the list.
-        ai.add(38);
+        ai.add(16);
         ai.add(15);
         ai.add(401);
         ai.add(59);
