@@ -11,7 +11,5 @@ public class Queue_priority {
         System.out.println(q.peek());
         System.out.println(q.remove(98));
         System.out.println(q);
-
-
     }   
 }
