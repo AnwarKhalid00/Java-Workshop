@@ -2,7 +2,7 @@ package Day25;
 import java.util.*;
 public class Tree_map {
     public static void main(String[] args) {
-        Map<String,Integer> hm = new TreeMap<String,Integer>();
+        TreeMap<String,Integer> hm = new TreeMap<String,Integer>();
         hm.put("Rajeev", 98);
         hm.put("Shagun", 97);
         hm.put("Khalid", 89);
@@ -16,8 +16,14 @@ public class Tree_map {
         System.out.println("After replacing marks: "+hm);
         hm.remove("Shagun");
         System.out.println("After removing: "+hm);
-        System.out.println("Getting value: "+hm.get("Preet"));
-        System.out.println("Getting value: "+hm.getOrDefault("Preet", 48));
+        System.out.println("Getting value: "+hm.get("Preet"));//returns the value to which the specified key is mapped, or null if this 
+                                                                 //map contains no mapping for the key
+        System.out.println("Getting value: "+hm.getOrDefault("Preet", 48));//returns the value to which the specified key is mapped, 
+                                                                                        // or defaultValue if this map contains no mapping for the key
+        System.out.println("First key: "+hm.firstKey());
+        System.out.println("Last key: "+hm.lastKey());
+        System.out.println("First entry: "+hm.firstEntry()); 
+        System.out.println("Last entry: "+hm.lastEntry());
 
     }
 }
