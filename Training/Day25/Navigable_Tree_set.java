@@ -17,5 +17,9 @@ public class Navigable_Tree_set {
         System.out.println("Accessing element lower than 59: "+ts.lower(59));
         System.out.println("Ceiling : "+ts.ceiling(58));//returns the least element greater than or equal to the given element
         System.out.println("Floor : "+ts.floor(60));//returns the greatest element less than or equal to the given element
+        ts.pollFirst();
+        System.out.println("Removing first element: "+ts);//removes and returns the first element
+        ts.pollLast();
+        System.out.println("Removing last element: "+ts);//removes and returns the last element
     }
 }
