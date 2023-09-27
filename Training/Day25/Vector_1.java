@@ -11,9 +11,12 @@ public class Vector_1 {
         v1.add(50);
         v1.add(60);
         System.out.println("Vector values: "+v1);
-        Vector<Integer> v2 = new Vector<Integer>();
+        List<Integer> v2 = new ArrayList<Integer>();
+        v2 = v1.subList(2, 4); 
+        System.out.println("Sublist: "+v2);
+        /* Vector<Integer> v2 = new Vector<Integer>();
         v2.addAll(v1);
-        System.out.println("copying all value of v1 to v2: "+v2);
+        System.out.println("copying all value of v1 to v2: "+v2); */ 
 
     }
 }
