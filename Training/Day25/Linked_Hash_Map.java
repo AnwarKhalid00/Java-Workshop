@@ -1,8 +1,8 @@
 package Day25;
 import java.util.*;
-public class HashMap_1 {
+public class Linked_Hash_Map {
     public static void main(String[] args) {
-        Map<String,Integer> hm = new HashMap<String,Integer>();
+        Map<String,Integer> hm = new LinkedHashMap<String,Integer>();
         hm.put("Rajeev", 98);
         hm.put("Shagun", 97);
         hm.put("Khalid", 89);
