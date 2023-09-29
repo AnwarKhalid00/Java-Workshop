@@ -9,7 +9,11 @@ public class Web_1 extends Frame{
         f1.setLayout(new FlowLayout());
         f1.setSize(500,400);
         f1.setVisible(true);
-
+        f1.addWindowListener(new WindowAdapter(){
+            public void windowClosing(WindowEvent e){
+                System.exit(0);
+            }
+        });
         
     }
         
