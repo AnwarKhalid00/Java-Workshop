@@ -1,6 +1,6 @@
 package Day23; 
 import java.util.*;
-public class Basic_collection_4 {
+public class Basic_Collection_4 {
     public static void main(String[] args) {
         ArrayList li = new ArrayList();
         li.add(10);
