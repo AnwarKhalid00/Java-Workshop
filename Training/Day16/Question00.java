@@ -1,7 +1,7 @@
 package Day16;
 //write a code for a square of a number using anonymous inner class using interface concept?
 import java.util.*;
-@FunctionalInterface
+//@FunctionalInterface
 interface  Square_of_num{
 
     void claculate();

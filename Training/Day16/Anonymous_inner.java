@@ -7,9 +7,9 @@ class Niet{
 
 public class Anonymous_inner {
     public static void main(String[] args) {
-        Niet nn = new Niet()
+        Niet nn = new Niet()//creating an instance of the abstract class
        {
-        void display(){
+        void display(){//overriding the method
             System.out.println("NIET");
 
         }
