@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Linked_list_queue {
     public static void main(String[] args) {
-        Queue<String> q = new LinkedList<String>();
+        Queue<String> q = new LinkedList<String>();//Queue is an interface and LinkedList is a class.
         q.add("Java");
         q.add("Python");
         q.add("C++");

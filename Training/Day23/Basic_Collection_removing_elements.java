@@ -14,7 +14,7 @@ public class Basic_Collection_removing_elements {
         while(i.hasNext()){
             str = (String)i.next();
             if(str.equals("Batch 2")){
-                i.remove();
+                i.remove();  
                 System.out.println("After removing");
                 break;
             }
